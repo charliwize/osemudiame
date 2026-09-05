@@ -63,7 +63,7 @@
 	<title>Osemudiame Okojie</title>
 	<meta
 		name="description"
-		content="Software engineer at DoorDash and founder of Terraglance. Based in Helsinki, Finland."
+		content="Software engineer at DoorDash and founder of Terraglance, building solutions for the built environment. Based in Helsinki, Finland."
 	/>
 </svelte:head>
 
@@ -121,7 +121,7 @@
 			class="font-medium text-neutral-950 transition hover:text-neutral-600"
 		>
 			Terraglance
-		</a>, based in Helsinki, Finland <span aria-label="Finland">🇫🇮</span> exploring AI, startups, and
+		</a>, building solutions for the built environment, based in Helsinki, Finland <span aria-label="Finland">🇫🇮</span> exploring AI, startups, and
 		technology.
 	</p>
 
