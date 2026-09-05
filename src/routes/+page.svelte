@@ -121,15 +121,23 @@
 			class="font-medium text-neutral-950 transition hover:text-neutral-600"
 		>
 			Terraglance
-		</a>, building solutions for the built environment, based in Helsinki, Finland <span aria-label="Finland">🇫🇮</span> exploring AI, startups, and
-		technology.
+		</a>, building solutions for the built environment, based in Helsinki, Finland
+		<span aria-label="Finland">🇫🇮</span> exploring AI, startups, and technology.
 	</p>
 
 	<p class="mt-8 text-sm text-neutral-400">
 		{#if copied}
 			<span class="text-neutral-600">Copied to clipboard</span>
 		{:else}
-			Press <kbd>C</kbd> to copy my email
+			Press <kbd>C</kbd> or
+			<button
+				type="button"
+				class="text-neutral-500 underline decoration-neutral-300 underline-offset-4 transition hover:text-neutral-950 hover:decoration-neutral-500"
+				onclick={() => void copyEmail()}
+			>
+				copy
+			</button>
+			my email
 		{/if}
 	</p>
 
