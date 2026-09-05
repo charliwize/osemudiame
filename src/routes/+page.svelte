@@ -63,7 +63,7 @@
 	<title>Osemudiame Okojie</title>
 	<meta
 		name="description"
-		content="Software engineer and builder building solutions for the built environment. Founder of Terraglance. Based in Helsinki, Finland."
+		content="Software engineer at DoorDash and founder of Terraglance. Based in Helsinki, Finland."
 	/>
 </svelte:head>
 
@@ -102,12 +102,19 @@
 
 	<div class="mb-6">
 		<h1 class="text-lg font-semibold text-neutral-950">Osemudiame Okojie</h1>
-		<p class="text-neutral-500">Software engineer and builder</p>
+		<p class="text-neutral-500">Software engineer at DoorDash</p>
 	</div>
 
 	<p class="text-[15px] leading-relaxed text-neutral-500">
-		Hey, I'm Osemudiame a software engineer and builder building solutions for the built
-		environment, founder of
+		Hey, I'm Osemudiame, a software engineer at
+		<a
+			href="https://www.doordash.com"
+			rel="external"
+			class="font-medium text-neutral-950 transition hover:text-neutral-600"
+		>
+			DoorDash
+		</a>
+		and founder of
 		<a
 			href="https://terraglance.com"
 			rel="external"
